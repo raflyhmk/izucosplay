@@ -139,7 +139,7 @@
 
 <script setup>
 useHead({
-  title: "figuartz",
+  title: "izucosplay",
   link: [
     // bootstrap css
     {
