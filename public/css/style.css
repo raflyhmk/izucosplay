@@ -1,0 +1,204 @@
+body {
+  font-family: "Bitter", sans-serif;
+}
+
+a {
+  color: #212121;
+}
+
+i {
+  font-size: 24px;
+}
+
+.nav-item .nav-link {
+  font-size: 18px;
+  color: #212121 !important;
+  margin: 0px 8px 0px 8px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #4e3b7f !important;
+  cursor: pointer;
+  border-bottom: 3px solid #4e3b7f;
+  padding-bottom: 4px;
+  font-weight: 700;
+}
+
+.dropdown-item:hover {
+  background: #4e3b7f !important;
+  color: #fff;
+}
+
+a .fa-cart-shopping {
+  border: 3px solid #4e3b7f;
+  color: #4e3b7f;
+  padding: 8px;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+a .fa-cart-shopping span {
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+a .fa-cart-shopping:hover {
+  cursor: pointer;
+  color: #4e3b7fd0;
+}
+
+.title {
+  color: #180b39;
+}
+
+.jumbotron {
+  background: url("/image/banner.jpg");
+  background-size: cover;
+  height: 760px;
+}
+
+.btn-izucosplay {
+  background: #33235c;
+  font-size: 24px;
+  color: #fff;
+  border: none;
+}
+
+.btn-izucosplay:hover {
+  background: #180b39;
+  font-size: 24px;
+  color: #fff;
+}
+
+.btn-izucosplay-outline {
+  font-size: 24px;
+  color: #180b39;
+  border: 1px solid #180b39;
+}
+
+.btn-izucosplay-outline:hover {
+  background: #180b39;
+  font-size: 24px;
+  color: #fff;
+}
+
+.titleProduk {
+  font-size: 20px;
+}
+
+.hargaProduk {
+  font-size: 24px;
+  color: #4e3b7f;
+}
+
+.fa-bag-shopping {
+  background: #856cc5;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.listProduk a:hover {
+  color: #4e3b7f;
+  cursor: pointer;
+}
+
+.datetime,
+.isiTestimoni,
+.subReviewer {
+  color: #787a91;
+}
+
+.reviewer {
+  color: #4e3b7f;
+}
+
+.fa-star {
+  color: #ffde00;
+}
+
+.maps .title {
+  border-bottom: 3px solid #180b39;
+  width: 400px;
+  padding-bottom: 12px;
+}
+
+.maps iframe {
+  width: 450px;
+  height: 270px;
+}
+
+footer {
+  border-top: 1px solid #4e3b7f;
+}
+
+.descToko {
+  font-size: 14px;
+  color: #212121;
+}
+
+.kontakToko i {
+  margin-right: 12px;
+  font-size: 30px;
+  margin-top: -15px;
+}
+
+.listProduk {
+  margin-top: -10px;
+}
+
+.listProduk a {
+  text-decoration: none;
+}
+
+.form-subscribe {
+  width: 170px;
+  margin-right: 12px;
+}
+
+.CP-footer {
+  border-top: 1px solid #212121;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.CP-footer h5 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.detailProduk {
+  color: #180b39;
+}
+
+.detailProduk .namaCostume {
+  font-size: 24px;
+}
+
+.detailProduk .hargaCostume {
+  color: #4e3b7f;
+  font-size: 36px;
+}
+
+@media (min-width: 968px) {
+  .videoProfile iframe {
+    width: 565px;
+    height: 315px;
+  }
+  .maps iframe {
+    width: 720px;
+    height: 350px;
+  }
+}
+
+/* product page */
+.btn-search {
+  border-color: #9a7b41 !important;
+  color: #9a7b41 !important;
+}
+
+.btn-search:hover {
+  background: #9a7b41 !important;
+  color: #fff !important;
+}
